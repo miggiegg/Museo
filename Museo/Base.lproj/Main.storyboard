@@ -40,7 +40,7 @@
                         <barButtonItem key="backBarButtonItem" title="Map" id="Vgc-MY-GaX"/>
                     </navigationItem>
                     <connections>
-                        <segue destination="hXQ-Iy-R2y" kind="show" id="rwe-II-uKu"/>
+                        <segue destination="hXQ-Iy-R2y" kind="show" identifier="MuseumDetails" id="rwe-II-uKu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNk-w6-dDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
