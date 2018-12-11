@@ -13,7 +13,7 @@
         <!--Featured-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FeaturedViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
         <!--Visit-->
         <scene sceneID="weS-At-tdD">
             <objects>
-                <viewController id="eGi-dw-0ud" sceneMemberID="viewController">
+                <viewController id="eGi-dw-0ud" customClass="VisitViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2G6-aA-SL5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
         <!--Search-->
         <scene sceneID="19P-YV-RXd">
             <objects>
-                <viewController id="i7P-wU-W1e" sceneMemberID="viewController">
+                <viewController id="i7P-wU-W1e" customClass="SearchViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wQZ-dB-7dY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,7 +66,7 @@
         <!--Discover-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="DiscoverViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
         <!--3D + AR-->
         <scene sceneID="ZvJ-XG-ALx">
             <objects>
-                <viewController id="B5x-g8-Sap" sceneMemberID="viewController">
+                <viewController id="B5x-g8-Sap" customClass="ARViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QsE-Qg-tcu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,7 +195,7 @@
         <!--Visit-->
         <scene sceneID="ZrO-XF-NrC">
             <objects>
-                <viewController title="Visit" id="hXQ-Iy-R2y" sceneMemberID="viewController">
+                <viewController title="Visit" id="hXQ-Iy-R2y" customClass="ListViewController" customModule="Museo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4w-3y-3XJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

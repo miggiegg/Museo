@@ -1,5 +1,5 @@
 //
-//  SearchViewController.swift
+//  AugmentedViewController.swift
 //  Museo
 //
 //  Created by Miguel Garcia on 12/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class AugmentedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

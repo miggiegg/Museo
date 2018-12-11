@@ -16,10 +16,10 @@
 		B9AF386E21BF691400C4E8DC /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF386D21BF691400C4E8DC /* FeaturedViewController.swift */; };
 		B9AF38AD21BF69AD00C4E8DC /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38AC21BF69AD00C4E8DC /* DiscoverViewController.swift */; };
 		B9AF38AF21BF69C500C4E8DC /* VisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38AE21BF69C500C4E8DC /* VisitViewController.swift */; };
-		B9AF38B321BF6A1200C4E8DC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B221BF6A1200C4E8DC /* ARViewController.swift */; };
 		B9AF38B521BF6A3E00C4E8DC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B421BF6A3E00C4E8DC /* SearchViewController.swift */; };
 		B9AF38B721BF6A6500C4E8DC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */; };
 		B9AF38B921BF6AEC00C4E8DC /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B821BF6AEC00C4E8DC /* Museum.swift */; };
+		B9AF38BD21BF6C8000C4E8DC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		B9AF386D21BF691400C4E8DC /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		B9AF38AC21BF69AD00C4E8DC /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		B9AF38AE21BF69C500C4E8DC /* VisitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitViewController.swift; sourceTree = "<group>"; };
-		B9AF38B221BF6A1200C4E8DC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		B9AF38B421BF6A3E00C4E8DC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		B9AF38B821BF6AEC00C4E8DC /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +109,7 @@
 		B9AF380021BF610800C4E8DC /* Museo */ = {
 			isa = PBXGroup;
 			children = (
+				B9AF380F21BF610800C4E8DC /* Info.plist */,
 				B9AF38A921BF698100C4E8DC /* Model */,
 				B9AF38AA21BF698800C4E8DC /* View */,
 				B9AF38AB21BF699200C4E8DC /* Controller */,
@@ -149,7 +150,7 @@
 				B9AF38AC21BF69AD00C4E8DC /* DiscoverViewController.swift */,
 				B9AF38AE21BF69C500C4E8DC /* VisitViewController.swift */,
 				B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */,
-				B9AF38B221BF6A1200C4E8DC /* ARViewController.swift */,
+				B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */,
 				B9AF38B421BF6A3E00C4E8DC /* SearchViewController.swift */,
 			);
 			path = View;
@@ -162,7 +163,6 @@
 				B9AF380721BF610800C4E8DC /* Main.storyboard */,
 				B9AF380121BF610800C4E8DC /* AppDelegate.swift */,
 				B9AF380A21BF610800C4E8DC /* Assets.xcassets */,
-				B9AF380F21BF610800C4E8DC /* Info.plist */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,8 +301,8 @@
 				B9AF38AD21BF69AD00C4E8DC /* DiscoverViewController.swift in Sources */,
 				B9AF38B521BF6A3E00C4E8DC /* SearchViewController.swift in Sources */,
 				B9AF386E21BF691400C4E8DC /* FeaturedViewController.swift in Sources */,
+				B9AF38BD21BF6C8000C4E8DC /* ARViewController.swift in Sources */,
 				B9AF38B921BF6AEC00C4E8DC /* Museum.swift in Sources */,
-				B9AF38B321BF6A1200C4E8DC /* ARViewController.swift in Sources */,
 				B9AF38AF21BF69C500C4E8DC /* VisitViewController.swift in Sources */,
 				B9AF380221BF610800C4E8DC /* AppDelegate.swift in Sources */,
 				B9AF38B721BF6A6500C4E8DC /* ListViewController.swift in Sources */,
