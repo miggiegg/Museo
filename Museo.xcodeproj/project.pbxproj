@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E475FB5279B543EA40325BD /* Pods_MuseoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8221FDBAF14D7C879CFD024B /* Pods_MuseoUITests.framework */; };
+		99D3A54BA52AB77E5A690B14 /* Pods_MuseoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39AB682D62573B80B172D73 /* Pods_MuseoTests.framework */; };
 		B9AF380221BF610800C4E8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF380121BF610800C4E8DC /* AppDelegate.swift */; };
 		B9AF380921BF610800C4E8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AF380721BF610800C4E8DC /* Main.storyboard */; };
 		B9AF380B21BF610800C4E8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AF380A21BF610800C4E8DC /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		B9AF38B721BF6A6500C4E8DC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */; };
 		B9AF38B921BF6AEC00C4E8DC /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B821BF6AEC00C4E8DC /* Museum.swift */; };
 		B9AF38BD21BF6C8000C4E8DC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */; };
+		B9AF38BF21BF6D2400C4E8DC /* MuseumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38BE21BF6D2400C4E8DC /* MuseumViewController.swift */; };
+		F0D15D5BACA05D8AD43202B9 /* Pods_Museo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB199BA94FCA1D83724D72D7 /* Pods_Museo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29250DD1291D17A22931C43E /* Pods-MuseoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoUITests/Pods-MuseoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F80F860CA17FAB6AEBDFC3C /* Pods-MuseoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8221FDBAF14D7C879CFD024B /* Pods_MuseoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ACDA6376FE31AE82E5690B /* Pods-Museo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Museo/Pods-Museo.release.xcconfig"; sourceTree = "<group>"; };
 		B9AF37FE21BF610800C4E8DC /* Museo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Museo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AF380121BF610800C4E8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9AF380821BF610800C4E8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +67,12 @@
 		B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		B9AF38B821BF6AEC00C4E8DC /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
 		B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		B9AF38BE21BF6D2400C4E8DC /* MuseumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumViewController.swift; sourceTree = "<group>"; };
+		BB199BA94FCA1D83724D72D7 /* Pods_Museo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Museo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39AB682D62573B80B172D73 /* Pods_MuseoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCAC021F0B04BEC6C1FAAA /* Pods-MuseoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4BB3E1F9FAFF3AFDB95B4F5 /* Pods-MuseoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoUITests/Pods-MuseoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E86E24F0FDE3BC22EA2E685D /* Pods-Museo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Museo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Museo/Pods-Museo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D15D5BACA05D8AD43202B9 /* Pods_Museo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D3A54BA52AB77E5A690B14 /* Pods_MuseoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E475FB5279B543EA40325BD /* Pods_MuseoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1184D6FCED3883109CAF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB199BA94FCA1D83724D72D7 /* Pods_Museo.framework */,
+				C39AB682D62573B80B172D73 /* Pods_MuseoTests.framework */,
+				8221FDBAF14D7C879CFD024B /* Pods_MuseoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B799A47CAC018746ADCFA34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E86E24F0FDE3BC22EA2E685D /* Pods-Museo.debug.xcconfig */,
+				B6ACDA6376FE31AE82E5690B /* Pods-Museo.release.xcconfig */,
+				E3CCAC021F0B04BEC6C1FAAA /* Pods-MuseoTests.debug.xcconfig */,
+				5F80F860CA17FAB6AEBDFC3C /* Pods-MuseoTests.release.xcconfig */,
+				29250DD1291D17A22931C43E /* Pods-MuseoUITests.debug.xcconfig */,
+				E4BB3E1F9FAFF3AFDB95B4F5 /* Pods-MuseoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B9AF37F521BF610800C4E8DC = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +133,8 @@
 				B9AF381721BF610800C4E8DC /* MuseoTests */,
 				B9AF382221BF610800C4E8DC /* MuseoUITests */,
 				B9AF37FF21BF610800C4E8DC /* Products */,
+				8B799A47CAC018746ADCFA34 /* Pods */,
+				6A1184D6FCED3883109CAF99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +192,7 @@
 				B9AF38AC21BF69AD00C4E8DC /* DiscoverViewController.swift */,
 				B9AF38AE21BF69C500C4E8DC /* VisitViewController.swift */,
 				B9AF38B621BF6A6500C4E8DC /* ListViewController.swift */,
+				B9AF38BE21BF6D2400C4E8DC /* MuseumViewController.swift */,
 				B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */,
 				B9AF38B421BF6A3E00C4E8DC /* SearchViewController.swift */,
 			);
@@ -174,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9AF382821BF610800C4E8DC /* Build configuration list for PBXNativeTarget "Museo" */;
 			buildPhases = (
+				EB7A51E707380F984DEF6778 /* [CP] Check Pods Manifest.lock */,
 				B9AF37FA21BF610800C4E8DC /* Sources */,
 				B9AF37FB21BF610800C4E8DC /* Frameworks */,
 				B9AF37FC21BF610800C4E8DC /* Resources */,
+				A873D74E4152CC0098E1D524 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9AF382B21BF610800C4E8DC /* Build configuration list for PBXNativeTarget "MuseoTests" */;
 			buildPhases = (
+				8C428AAF82DB76AF0818C044 /* [CP] Check Pods Manifest.lock */,
 				B9AF381021BF610800C4E8DC /* Sources */,
 				B9AF381121BF610800C4E8DC /* Frameworks */,
 				B9AF381221BF610800C4E8DC /* Resources */,
@@ -209,6 +255,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9AF382E21BF610800C4E8DC /* Build configuration list for PBXNativeTarget "MuseoUITests" */;
 			buildPhases = (
+				F6019F97849F8F6AC77D5E3E /* [CP] Check Pods Manifest.lock */,
 				B9AF381B21BF610800C4E8DC /* Sources */,
 				B9AF381C21BF610800C4E8DC /* Frameworks */,
 				B9AF381D21BF610800C4E8DC /* Resources */,
@@ -293,6 +340,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C428AAF82DB76AF0818C044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuseoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A873D74E4152CC0098E1D524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Museo/Pods-Museo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Museo/Pods-Museo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB7A51E707380F984DEF6778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Museo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6019F97849F8F6AC77D5E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuseoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9AF37FA21BF610800C4E8DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -306,6 +430,7 @@
 				B9AF38AF21BF69C500C4E8DC /* VisitViewController.swift in Sources */,
 				B9AF380221BF610800C4E8DC /* AppDelegate.swift in Sources */,
 				B9AF38B721BF6A6500C4E8DC /* ListViewController.swift in Sources */,
+				B9AF38BF21BF6D2400C4E8DC /* MuseumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +603,7 @@
 		};
 		B9AF382921BF610800C4E8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86E24F0FDE3BC22EA2E685D /* Pods-Museo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +622,7 @@
 		};
 		B9AF382A21BF610800C4E8DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ACDA6376FE31AE82E5690B /* Pods-Museo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +641,7 @@
 		};
 		B9AF382C21BF610800C4E8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CCAC021F0B04BEC6C1FAAA /* Pods-MuseoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +663,7 @@
 		};
 		B9AF382D21BF610800C4E8DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F80F860CA17FAB6AEBDFC3C /* Pods-MuseoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +685,7 @@
 		};
 		B9AF382F21BF610800C4E8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29250DD1291D17A22931C43E /* Pods-MuseoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +706,7 @@
 		};
 		B9AF383021BF610800C4E8DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BB3E1F9FAFF3AFDB95B4F5 /* Pods-MuseoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
