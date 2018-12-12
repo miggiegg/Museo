@@ -23,6 +23,8 @@
 		B9AF38B921BF6AEC00C4E8DC /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38B821BF6AEC00C4E8DC /* Museum.swift */; };
 		B9AF38BD21BF6C8000C4E8DC /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */; };
 		B9AF38BF21BF6D2400C4E8DC /* MuseumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38BE21BF6D2400C4E8DC /* MuseumViewController.swift */; };
+		B9AF38C121BF719300C4E8DC /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AF38C021BF719300C4E8DC /* Connectivity.swift */; };
+		B9AF38C321C0C45D00C4E8DC /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B9AF38C221C0C45D00C4E8DC /* background.mp4 */; };
 		F0D15D5BACA05D8AD43202B9 /* Pods_Museo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB199BA94FCA1D83724D72D7 /* Pods_Museo.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		B9AF38B821BF6AEC00C4E8DC /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
 		B9AF38BC21BF6C8000C4E8DC /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		B9AF38BE21BF6D2400C4E8DC /* MuseumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumViewController.swift; sourceTree = "<group>"; };
+		B9AF38C021BF719300C4E8DC /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		B9AF38C221C0C45D00C4E8DC /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		BB199BA94FCA1D83724D72D7 /* Pods_Museo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Museo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39AB682D62573B80B172D73 /* Pods_MuseoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CCAC021F0B04BEC6C1FAAA /* Pods-MuseoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseoTests/Pods-MuseoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 		B9AF37F521BF610800C4E8DC = {
 			isa = PBXGroup;
 			children = (
+				B9AF38C221C0C45D00C4E8DC /* background.mp4 */,
 				B9AF380021BF610800C4E8DC /* Museo */,
 				B9AF381721BF610800C4E8DC /* MuseoTests */,
 				B9AF382221BF610800C4E8DC /* MuseoUITests */,
@@ -202,10 +207,11 @@
 		B9AF38AB21BF699200C4E8DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B9AF380C21BF610800C4E8DC /* LaunchScreen.storyboard */,
 				B9AF380721BF610800C4E8DC /* Main.storyboard */,
 				B9AF380121BF610800C4E8DC /* AppDelegate.swift */,
+				B9AF38C021BF719300C4E8DC /* Connectivity.swift */,
 				B9AF380A21BF610800C4E8DC /* Assets.xcassets */,
+				B9AF380C21BF610800C4E8DC /* LaunchScreen.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -318,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9AF38C321C0C45D00C4E8DC /* background.mp4 in Resources */,
 				B9AF380E21BF610800C4E8DC /* LaunchScreen.storyboard in Resources */,
 				B9AF380B21BF610800C4E8DC /* Assets.xcassets in Resources */,
 				B9AF380921BF610800C4E8DC /* Main.storyboard in Resources */,
@@ -424,6 +431,7 @@
 			files = (
 				B9AF38AD21BF69AD00C4E8DC /* DiscoverViewController.swift in Sources */,
 				B9AF38B521BF6A3E00C4E8DC /* SearchViewController.swift in Sources */,
+				B9AF38C121BF719300C4E8DC /* Connectivity.swift in Sources */,
 				B9AF386E21BF691400C4E8DC /* FeaturedViewController.swift in Sources */,
 				B9AF38BD21BF6C8000C4E8DC /* ARViewController.swift in Sources */,
 				B9AF38B921BF6AEC00C4E8DC /* Museum.swift in Sources */,
